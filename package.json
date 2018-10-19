@@ -1,15 +1,30 @@
 {
   "name": "webpacker4",
   "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
     "@rails/webpacker": "https://github.com/rails/webpacker",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react_ujs": "^2.4.4"
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react_ujs": "^2.4.4",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1",
     "webpack-dev-server": "^3.1.9"
   }
 }
